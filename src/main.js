@@ -7,6 +7,9 @@ import './plugins/index'
 import router from './router'
 import store from './store'
 
+// 引入样式
+import './styles/index.scss'
+
 Vue.config.productionTip = false
 
 new Vue({
